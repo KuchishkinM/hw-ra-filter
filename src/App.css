@@ -1,0 +1,36 @@
+.contaiter {
+  margin: 50px 250px;
+  justify-content: space-between;
+  font-family: muli;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  background-color: aliceblue;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px black solid;
+}
+
+.filter:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+
+.project-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
